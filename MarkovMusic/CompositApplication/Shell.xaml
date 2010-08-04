@@ -1,0 +1,37 @@
+<UserControl x:Class="CompositApplication.Shell"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cal="http://www.codeplex.com/CompositeWPF"
+    xmlns:CompositApplication="clr-namespace:CompositApplication"
+    >
+  <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto">
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto"/>
+        <ColumnDefinition Width="*"/>
+        <ColumnDefinition Width="Auto"/>
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="Auto"/>
+        <RowDefinition Height="*"/>
+        <RowDefinition Height="Auto"/>
+      </Grid.RowDefinitions>
+      <Border Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3">
+        <ContentControl cal:RegionManager.RegionName="{x:Static CompositApplication:RegionNames.TopRegion}" ></ContentControl>
+      </Border>
+      <Border Grid.Row="1" Grid.Column="0">
+        <ContentControl cal:RegionManager.RegionName="{x:Static CompositApplication:RegionNames.LeftRegion}" ></ContentControl>
+      </Border>
+      <Border Grid.Row="1" Grid.Column="1" Grid.ZIndex="-1">
+        <ContentControl cal:RegionManager.RegionName="{x:Static CompositApplication:RegionNames.MiddleRegion}" ></ContentControl>
+      </Border>
+      <Border Grid.Row="1" Grid.Column="2">
+        <ContentControl cal:RegionManager.RegionName="{x:Static CompositApplication:RegionNames.RightRegion}" ></ContentControl>
+      </Border>
+      <Border Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3">
+        <ContentControl cal:RegionManager.RegionName="{x:Static CompositApplication:RegionNames.BottomRegion}" ></ContentControl>
+      </Border>
+    </Grid>
+  </ScrollViewer>
+
+</UserControl>

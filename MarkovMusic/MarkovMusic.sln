@@ -1,0 +1,97 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{B83BD149-66F2-4731-B1E2-E1D350563FDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Moq", "Moq", "{8D54734D-5399-490C-A2C6-45B6F4108C08}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Moq\Moq.dll = Lib\Moq\Moq.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NUnit", "NUnit", "{710250D4-97EE-46B2-95C6-2126976CA08D}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\NUnit\nunit.framework.dll = Lib\NUnit\nunit.framework.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{ACBF0756-DC2A-4BA5-8669-C2ED250B5DF4}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\AssemblyInfo.cs = Properties\AssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Enterprise Library", "Enterprise Library", "{802F20E0-5A21-48C5-83E4-C0D8638DBF86}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\Enterprise Library\Microsoft.Practices.Composite.dll = Lib\Enterprise Library\Microsoft.Practices.Composite.dll
+		Lib\Enterprise Library\Microsoft.Practices.Composite.Presentation.dll = Lib\Enterprise Library\Microsoft.Practices.Composite.Presentation.dll
+		Lib\Enterprise Library\Microsoft.Practices.Composite.UnityExtensions.dll = Lib\Enterprise Library\Microsoft.Practices.Composite.UnityExtensions.dll
+		Lib\Enterprise Library\Microsoft.Practices.EnterpriseLibrary.Common.dll = Lib\Enterprise Library\Microsoft.Practices.EnterpriseLibrary.Common.dll
+		Lib\Enterprise Library\Microsoft.Practices.ObjectBuilder2.dll = Lib\Enterprise Library\Microsoft.Practices.ObjectBuilder2.dll
+		Lib\Enterprise Library\Microsoft.Practices.ServiceLocation.dll = Lib\Enterprise Library\Microsoft.Practices.ServiceLocation.dll
+		Lib\Enterprise Library\Microsoft.Practices.Unity.dll = Lib\Enterprise Library\Microsoft.Practices.Unity.dll
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLite", "SQLite", "{ED2EB6A5-87CF-4F2E-A7FC-89C7EFC50C4C}"
+	ProjectSection(SolutionItems) = preProject
+		Lib\SQLite\sqlite.dll = Lib\SQLite\sqlite.dll
+		Lib\SQLite\SQLiteClient.dll = Lib\SQLite\SQLiteClient.dll
+		Lib\SQLite\SQLiteProxy.dll = Lib\SQLite\SQLiteProxy.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovMusic", "MarkovMusic\MarkovMusic.csproj", "{1D7A3882-1415-441D-B826-230140DB294D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests.MarkovMusic", "Tests.MarkovMusic\Tests.MarkovMusic.csproj", "{FB046B45-85C8-4FDC-B451-A07984B82D63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositApplication", "CompositApplication\CompositApplication.csproj", "{B4DFB76F-DBD7-49C7-8E51-52D81F556669}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovMusic.BusinessLayer", "MarkovMusic.BusinessLayer\MarkovMusic.BusinessLayer.csproj", "{8C6B91AF-2350-4C5A-ADE2-FF9211BE0C12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovMusic.Clients.MainModule", "MarkovMusic.Clients.MainModule\MarkovMusic.Clients.MainModule.csproj", "{809DBC21-487A-4422-978D-49537D834C09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovMusic.Clients.Shell", "MarkovMusic.Clients.Shell\MarkovMusic.Clients.Shell.csproj", "{9BCF79ED-6E58-46E8-B807-F200BB530940}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkovMusic.DataAccessLayer.SQLite", "MarkovMusic.DataAccessLayer.SQLite\MarkovMusic.DataAccessLayer.SQLite.csproj", "{A0A4436C-CD5A-41B5-BBD7-098D432BC595}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D7A3882-1415-441D-B826-230140DB294D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D7A3882-1415-441D-B826-230140DB294D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D7A3882-1415-441D-B826-230140DB294D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D7A3882-1415-441D-B826-230140DB294D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB046B45-85C8-4FDC-B451-A07984B82D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB046B45-85C8-4FDC-B451-A07984B82D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB046B45-85C8-4FDC-B451-A07984B82D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB046B45-85C8-4FDC-B451-A07984B82D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4DFB76F-DBD7-49C7-8E51-52D81F556669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4DFB76F-DBD7-49C7-8E51-52D81F556669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4DFB76F-DBD7-49C7-8E51-52D81F556669}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4DFB76F-DBD7-49C7-8E51-52D81F556669}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6B91AF-2350-4C5A-ADE2-FF9211BE0C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6B91AF-2350-4C5A-ADE2-FF9211BE0C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6B91AF-2350-4C5A-ADE2-FF9211BE0C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6B91AF-2350-4C5A-ADE2-FF9211BE0C12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{809DBC21-487A-4422-978D-49537D834C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{809DBC21-487A-4422-978D-49537D834C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{809DBC21-487A-4422-978D-49537D834C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{809DBC21-487A-4422-978D-49537D834C09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCF79ED-6E58-46E8-B807-F200BB530940}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCF79ED-6E58-46E8-B807-F200BB530940}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCF79ED-6E58-46E8-B807-F200BB530940}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCF79ED-6E58-46E8-B807-F200BB530940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A4436C-CD5A-41B5-BBD7-098D432BC595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A4436C-CD5A-41B5-BBD7-098D432BC595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A4436C-CD5A-41B5-BBD7-098D432BC595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A4436C-CD5A-41B5-BBD7-098D432BC595}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D54734D-5399-490C-A2C6-45B6F4108C08} = {B83BD149-66F2-4731-B1E2-E1D350563FDF}
+		{710250D4-97EE-46B2-95C6-2126976CA08D} = {B83BD149-66F2-4731-B1E2-E1D350563FDF}
+		{802F20E0-5A21-48C5-83E4-C0D8638DBF86} = {B83BD149-66F2-4731-B1E2-E1D350563FDF}
+		{ED2EB6A5-87CF-4F2E-A7FC-89C7EFC50C4C} = {B83BD149-66F2-4731-B1E2-E1D350563FDF}
+	EndGlobalSection
+EndGlobal
